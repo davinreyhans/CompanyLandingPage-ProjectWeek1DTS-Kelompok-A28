@@ -1,0 +1,95 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('Poppins-Bold.otf');
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('Poppins-Regular.otf');
+}
+.ourTeam-wrapper{
+width: 1280px;
+height: 898px;
+background: #082489;
+color: white;
+float:left;
+}
+.our-team h2{
+    text-align: center;
+    padding-top: 60px;    
+    font-size: 36px;
+    font-family: Poppins-Bold;
+}
+
+.profile-foto{
+    width: 200px;
+	height: 200px;
+	background: #C4C4C4;
+	border-radius: 100%;
+}
+
+.profile-a{
+    padding-top: 24px;
+    float: left;
+    padding-right: 113px;
+    padding-left: 113px;
+  
+}
+.profile-a img {
+    width:200px; border-radius:100%;
+}
+
+.profile-b{
+    padding-top: 24px;
+    float: left;
+    padding-right: 114px;
+    padding-left: 114px;
+ 
+}
+.profile-b img {
+    width:200px; border-radius:100%;
+}
+
+.profile-c{ 
+    padding-top: 24px;
+    float: left;
+    padding-right: 113px;
+    padding-left: 113px;
+   
+}
+.profile-c img {
+    width:200px; border-radius:100%;
+}
+
+.profile-d{
+    padding-top: 10px;   
+    float: left;
+    padding-right: 110px;
+    padding-left: 25%;
+    
+}
+.profile-d img {
+    width:200px; border-radius:100%;
+}
+
+.profile-e{
+    padding-top: 10px;   
+    float: left;
+    padding-right: 25%;
+    padding-left: 110px;    
+}
+.profile-e img {
+    width:200px; border-radius:100%;
+}
+
+.nama{
+    text-align: center;
+    font-family: Poppins-Regular;
+    font-size: 24px;
+}
+.nama span{
+    font-family: Poppins-Bold;
+}
