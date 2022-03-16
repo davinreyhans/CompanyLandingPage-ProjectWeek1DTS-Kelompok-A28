@@ -45,7 +45,7 @@
   }
   
   .heading-tim {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 50px;
   }
   
@@ -67,7 +67,7 @@
   }
   
   .tim-icon img:hover{
-    box-shadow: 7px 7px 20px #000000;
+    box-shadow: 7px 7px 20px #000000
   }
   
   .tim-icon h3 {
