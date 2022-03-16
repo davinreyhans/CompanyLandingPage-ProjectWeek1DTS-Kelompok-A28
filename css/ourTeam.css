@@ -1,0 +1,88 @@
+/* CSS Reset and font  */
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p,
+  form, input, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* font */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  /* css reset end */
+  /* ------------------------------------------------------------------------------------------- */
+  .clear{
+    clear:left;
+  }
+  
+  .tim-wrapper {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 80px;
+    background-color: #082489;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .heading-tim {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  
+  .heading-tim h1 {
+    font-weight: 700;
+  }
+  
+  .tim {
+    float: left;
+    width: 20%;
+  }
+  
+  .tim-icon {
+    position: relative;
+  }
+  
+  .tim-icon img{
+    border-radius: 50%;
+  }
+  
+  .tim-icon img:hover{
+    box-shadow: 7px 7px 20px #000000;
+  }
+  
+  .tim-icon h3 {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  
+  .txt-contents-tim {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+    padding-top: 18px;
+  }
